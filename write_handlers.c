@@ -2,7 +2,7 @@
 /************************* WRITE HANDLE *************************/
 
 /**
- * handle_write_char - Prints a string
+ * handle_write_char - Print a strings
  * @c: char types.
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags.
@@ -78,7 +78,7 @@ return (write(1, &buffer[0], 1));
 /************************* WRITE NUMBER *************************/
 /**
  * write_number - Prints a string
- * @is_negative: Lista of arguments
+ * @is_negative: List of arguments
  * @ind: char types.
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
